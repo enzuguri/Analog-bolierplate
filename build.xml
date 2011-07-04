@@ -1,7 +1,9 @@
 <?xml version="1.0" standalone="yes" ?>
-<project name="Analog-boilerplate">
+<project name="Analog-boilerplate" default="compile" basedir=".">
 
-	
+	<ant name="compile">
+		<echo value="compiling project"/>
+	</ant>
 
 </project>
 
